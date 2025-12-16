@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Polera Black Letter", "price": 27990, "img": "assets/img/polera1.png" },
+  { "id": 2, "name": "Polera Negra Medusa", "price": 27990, "img": "assets/img/polera2.png" },
+  { "id": 3, "name": "Polera Demon Girl", "price": 28990, "img": "assets/img/polera3.png" },
+  { "id": 4, "name": "Polera Beige Berries", "price": 20990, "img": "assets/img/polera4.png" }
+]

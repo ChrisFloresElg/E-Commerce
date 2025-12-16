@@ -1,0 +1,140 @@
+/* TOP BAR */
+.top-bar {
+  background-color: #1f2430;
+  font-size: 0.85rem;
+  padding: 6px 0;
+}
+
+
+/* TAMAÑO LOGO */
+.logo {
+  height: 50px;
+}
+
+/* LINKS DEL MENÚ */
+.nav-link {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #111 !important;
+  letter-spacing: 1px;
+} 
+
+.nav-link:hover {
+  color: #000;
+  opacity: 0.7;
+}
+
+/* BUSCADOR NAVBAR */
+.search-box input {
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  outline: none;
+  width: 160px;
+}
+
+/* ÍCONOS NAVBAR */
+.icon-btn {
+  font-size: 1.1rem;
+  color: #111;
+  text-decoration: none;
+  position: relative;
+}
+
+.icon-btn:hover {
+  opacity: 0.7;
+}
+
+/* CARRITO */
+#cart-count {
+  font-size: 0.7rem;
+  position: absolute;
+  top: -6px;
+  right: -10px;
+}
+
+/* BANNER */
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* FOOTER */
+.footer {
+  background-color: #fff;
+  font-size: 0.85rem;
+}
+
+
+
+.footer-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  color: #111;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-form input {
+  border: 1px solid #111;
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  width: 100%;
+  max-width: 220px;
+  outline: none;
+}
+
+.footer-form button {
+  border: none;
+  background-color: #111;
+  color: #fff;
+  padding: 8px 14px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.footer-form button:hover {
+  opacity: 0.85;
+}
+
+.footer .row {
+  justify-content: center;
+}
